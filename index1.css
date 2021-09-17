@@ -1,0 +1,110 @@
+.logo {
+    width: 108px;
+    margin-right: 45%;
+    height: 89px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+    width: auto;
+    height: 100%;
+    margin-top: 35px;
+    background-image: url(atp003.jpg);
+    margin-right: 100px;
+     
+}
+.container {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    background-image: url(atp003.jpg);
+}
+.atp1 {
+    display: flex;
+    margin: auto;
+    flex-direction: rtl;
+    margin-top: 19px;
+    background-color: white;
+   
+}
+.atplogo {
+    width: 100%;
+}
+.menu1 {
+    display: flex;
+    margin-right: 40px;
+  
+}
+.menu2 {
+    display: flex;
+    margin-right: 40px;
+}
+.menu3 {
+    display: flex;
+    margin-right: 40px;
+}
+.menu4 {
+    display: flex;
+    margin-right: 40px;
+}
+.menu5 {
+    display: flex;
+    margin-right: 40px;
+} 
+.menu6 {
+    display: flex;
+    margin-right: 40px;
+}
+.menu7 {
+    display: flex;
+    margin-right: 40px;
+}
+.menu8 {
+    display: flex;
+    margin-right: 40px;
+}
+.text2 {
+    display: flex;
+    justify-content: center;
+}
+.text3 {
+    display: flex;
+    justify-content: center;
+}
+.link1 {
+    display: flex;
+    justify-content: center;
+}
+.imgContainer {
+    display: flex;
+    justify-content: space-around;
+}
+.leftimg {
+    width: 550px;
+    height: 220px;
+}
+.atptext {
+    margin-left: 25px;
+}
+.rightcontainer {
+    display: flex;
+}
+.rightimg {
+    width: 1000px;
+    height: 200px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.img2Container {
+    display: flex;
+    justify-content: space-around;
+}
+.rightimg2 {
+    width: 630px;
+    height: 200px;
+}
+.atptext3 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
