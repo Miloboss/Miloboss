@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Myanmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-cl {
+    background-color: rgb(68, 60, 65);
+}
+
+.vv1 {
+    background-color: rgb(100, 91, 91);
+    transition: 1s;
+}
+
+.vv1:hover {
+    background-color: #fff;
+    transition: 1s;
+}
+
+
+.txt {
+    color: rgb(221, 128, 14);
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 700;
+}
+
+.txt-1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 29px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.btn-bg {
+    border: 2px rgb(221, 128, 14) solid;
+}
+
+.bod-0 a{
+    color: aliceblue;
+    font-size: 20px;
+}
+.offcanvas {
+    transition: all 0.8s;
+}
+
+/*.bod-0 a:hover {
+    color: rgb(221, 128, 14);
+    
+}*/
+
+::selection {
+    background-color: rgb(221, 128, 14);
+}
+
+.bod-4 {
+    cursor: pointer;
+}
+
+.intro {
+    background-color: rgb(34, 38, 38);
+}
+
+.intro-1 {
+    width: 100%;
+    min-height: 100%;
+}
+
+.intro-1 p {
+    font-size: 25px;
+    vertical-align: middle;
+    position: relative;
+    top: 9px;
+    color: rgb(221, 128, 14);
+}
+
+/*read more */
+
+.read-more-text{
+    display: none;
+}
+
+.read-more-text--show{
+    display: block;
+}
+
+.read-more-container img {
+    width: 100%;
+    height: 230px;
+}
+
+.first-page {
+    background: linear-gradient(rgb(187, 142, 88), rgb(200, 165, 122));
+    padding-top: 90px;
+    padding-bottom: 1rpx;
+}
+
+
+
+/* footer */
+
+.footer {
+    background-color: rgb(68, 60, 65);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.txt-01 {
+    position: relative;
+    top: 9px;
+}
+
+.txt-01 p {
+    font-size: 25px;
+    color: #fff;
+}
+
+.txt-col {
+    color: rgb(178, 30, 151);
+}
+
+/*  loader  */
+
+.loader {
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(23, 19, 19);
+        }
+
+        .first-loader{
+            width: 350px;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            border: 10px rgb(26, 226, 113) solid;
+            position: relative;
+            top: 25%;
+            border-radius: 50%;
+            animation: first-circle 2s linear infinite;
+        }
+
+        .first-loader::before {
+            content: '';
+            position: absolute;
+            width: 350px;
+            height: 150px;
+            border-radius: 150px 150px 0 0;
+            background-color: rgb(23, 19, 19);
+            top: 60px;
+            left: 165px;
+            transform: translate(-50%, -50%);
+        }
+
+        .second-loader {
+            width: 300px;
+            height: 300px;
+            z-index: 3;
+            border-radius: 50%;
+            position: relative;
+            top: 15px;
+            border: 10px rgb(22, 245, 238) solid;
+            animation: second-circle 2s linear infinite;
+        }
+
+        .second-loader::before {
+            content: '';
+            position: absolute;
+            width: 305px;
+            height: 150px;
+            border-radius: 0 0 150px 150px;
+            background-color: rgb(23, 19, 19);
+            transform: translate(50%, 50%);
+            top: 70px;
+            left: -166px;
+        }
+
+        .third-loader {
+            width: 230px;
+            height: 230px;
+            z-index: 10 ;
+            border: 10px red solid;
+            border-radius: 50%;
+            position: relative;
+            top: 26px;
+            left: 25px;
+            animation: third-circle 2s linear infinite;
+        } 
+
+        .third-loader::before {
+            content: '';
+            position: absolute;
+            width: 250px;
+            height: 130px;
+            background-color: rgb(23, 19, 19);
+            border-radius: 150px 150px 0 0;
+            top: -20px;
+            left: -15px;
+
+        }
+
+        .forth-loader {
+            width: 160px;
+            height: 160px;
+            z-index: 20;
+            border: 10px blue solid;
+            border-radius: 50%;
+            position: relative;
+            top: 26px;
+            left: 25px;
+            animation: third-circle 3s linear infinite;
+        }
+
+        .forth-loader::before {
+            content: '';
+            position: absolute;
+            width: 170px;
+            height: 110px;
+            background-color: rgb(23, 19, 19);
+            border-radius: 0 0 150px 150px;
+            top: 55px;
+            left: -10px;
+        }
+
+        .five-loader {
+            width: 90px;
+            height: 90px;
+            z-index: 30;
+            border: 10px #fff solid;
+            border-radius: 50%;
+            position: relative;
+            top: 18%;
+            left: 18%;
+            animation: third-circle 3s linear infinite;
+        }
+
+        .five-loader::before {
+            content: '';
+            width: 100px;
+            height: 55px;
+            position: absolute;
+            background-color: rgb(23, 19, 19);
+            border-radius: 150px 150px 0 0;
+            top: -13px;
+            left: -13.5px;
+        }
+
+        @keyframes first-circle {
+            0% {transform: rotate(0deg);}
+
+            100% {transform: rotate(360deg);}
+        }
+
+        @keyframes second-circle {
+            0% {transform: rotate(360deg);}
+
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+
+        @keyframes third-circle {
+            0% {
+                transform: rotate(-360deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+    
+        .all-container {
+            display: none;
+            opacity: 0;
+            transition: opacity 1s ease-in;
+            background: linear-gradient(rgb(187, 142, 88), rgb(200, 165, 122));
+        }
+
+/*   */
+        
+.card-title {
+    font-family: 'Noto Serif Myanmar', serif;
+    font-weight: 700;
+    color: rgb(221, 128, 14);
+    font-size: 19px;
+}
+
+.card-text, .read-more-text {
+    font-family: 'Noto Sans Myanmar', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.card {
+    background-color: rgb(35, 30, 30);
+}
+
+#i4 {
+    font-size: 16.5px;
+    line-height: 1.4;
+}
+
+/* button */
+.bod-1 a, .bod-2 a, .bod-3 a, .bod-4 a {
+    position: relative;
+}
+.bod-1 a::before
+, .bod-2 a::before
+, .bod-3 a::before
+, .bod-4 a::before{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: rgb(245, 175, 91);
+    height: 3px;
+    transition: width 1s;
+}
+
+.bod-1:hover a::before
+, .bod-2:hover a::before
+, .bod-3:hover a::before
+, .bod-4:hover a::before {
+    width: 100%;
+}
+
+.bod-1 a:hover, .bod-2 a:hover, .bod-3 a:hover
+, .bod-4 a:hover {
+    color: rgb(149, 139, 139);
+    transition:  1s;
+}
+
+
+/* choose button */
+.bgj {
+    color: rgb(245, 150, 41);
+    font-weight: 600;
+    background-color: rgb(23, 19, 19);
+    transition: all 1s;
+}
+
+.bgj:hover {
+    background-color: rgb(187, 142, 88);
+    color: #fff;
+    transition: all 1s;
+}
+
+/* */
+
+
