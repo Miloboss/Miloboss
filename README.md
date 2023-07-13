@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @Miloboss
-- 👀 I’m interested in Website
-- 🌱 I’m currently learning Website Develope
+- 👋 Hi, I’m real name's Aung Thet Paing and nickname's @Miloboss
+- 👀 I’m interested in Website Developer
+- 🌱 I’m currently learning Website backend Developer
 - 💞️ I’m looking to collaborate on my learning
 - 📫 How to reach me ...
 
