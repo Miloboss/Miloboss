@@ -5,7 +5,7 @@
 - 📫 How to reach me ...
 
 
-Hi! My nickname is Milo and my real name is Aung Thet Paing.I started to be interested in web developer from 2021. So I started learning HTML & CSS on YouTube.
+Hi! My nickname is Milo and my real name is Aung Thet Paing.I started to be interested in web developer from 2021 Dec. So I started learning HTML & CSS on YouTube.
 
 After that, I continued to study JS, Jquery, Bootstrap, PHP, MySQL, LARAVEL, API.
 Here are a few technologies I’ve been working with recently:
