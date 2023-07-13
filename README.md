@@ -12,8 +12,10 @@ Here are a few technologies I’ve been working with recently:
 
 - JavaScript (ES6+)
 - PHP
+- MySQL
 - Laravel
 - VUE JS
+- Cyber Security
 
 
 <!---
