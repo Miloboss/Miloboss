@@ -10,8 +10,10 @@ Hi! My nickname is Milo and my real name is Aung Thet Paing.I started to be inte
 After that, I continued to study JS, Jquery, Bootstrap, PHP, MySQL, LARAVEL, API.
 Here are a few technologies I’ve been working with recently:
 
-- JavaScript (ES6+) - PHP
-- Laravel           - VUE JS
+- JavaScript (ES6+)
+- PHP
+- Laravel
+- VUE JS
 
 
 <!---
