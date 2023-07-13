@@ -5,7 +5,15 @@
 - 📫 How to reach me ...
 
 
-HELLO 
+Hi! My nickname is Milo and my real name is Aung Thet Paing.I started to be interested in web developer from 2021. So I started learning HTML & CSS on YouTube.
+
+After that, I continued to study JS, Jquery, Bootstrap, PHP, MySQL, LARAVEL, API.
+Here are a few technologies I’ve been working with recently:
+
+- JavaScript (ES6+) - PHP
+- Laravel           - VUE JS
+
+
 <!---
 Miloboss/Miloboss is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
